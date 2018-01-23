@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using Autofac.Extensions.DependencyInjection;
 
 namespace TodoMVC
 {
@@ -13,6 +14,8 @@ namespace TodoMVC
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
+                // add autofac startup convention service
+                .ConfigureServices(cfg => cfg.AddAutofac())
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
