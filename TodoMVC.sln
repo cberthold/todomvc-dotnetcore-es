@@ -5,9 +5,14 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoMVC", "TodoMVC.WebAPI\TodoMVC.csproj", "{8701A706-2AC4-428E-9BAF-31A2BD92111F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMVC.Domain", "TodoMVC.Domain\TodoMVC.Domain.csproj", "{9E4FDF6F-32B0-4996-9686-AF533F5872A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoMVC.Domain", "TodoMVC.Domain\TodoMVC.Domain.csproj", "{9E4FDF6F-32B0-4996-9686-AF533F5872A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMVC.Domain.Tests", "TodoMVC.Domain.Tests\TodoMVC.Domain.Tests.csproj", "{BD6459F2-33A2-423C-834C-F558CF013CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoMVC.Domain.Tests", "TodoMVC.Domain.Tests\TodoMVC.Domain.Tests.csproj", "{BD6459F2-33A2-423C-834C-F558CF013CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{F7135CEA-32CE-4A7C-8A6B-DDA0D0505FDA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
